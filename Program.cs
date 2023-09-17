@@ -28,13 +28,18 @@ namespace CodePractice
             #endregion
 
 
-            #region Static/ Constant
+            #region Static/ Constant /ReadPnly
 
             //StaticConstant.ChangeStaticValue();
+            //StaticConstant.CheckConstatValue();
+
+            //ReadOnlyCls.GetReadOnly();
 
             #endregion
 
-            ThisKeyword thisKeyword = new ThisKeyword();
+            //ThisKeyword thisKeyword = new ThisKeyword();
+
+            //Ref_Vs_Out.RefMethod(); 
 
         }
     }

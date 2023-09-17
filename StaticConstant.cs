@@ -25,6 +25,50 @@ namespace CodePractice
             #endregion
 
         }
-    
+
+        #region Const
+
+        //  If we not initialise const value then it cause error
+        //public const float PI;
+
+        public const float PI = 3.14f;
+
+
+        public static void CheckConstatValue()
+        {
+            // if you try to change const value then it cause error
+            //PI = 4.4;
+            Console.WriteLine("PI : {0} ", PI);
+        }
+
+        #endregion
+    }
+
+    public  class ReadOnlyCls
+    {
+        
+        readonly int z; //Readonly Variable
+        
+        //Constructor
+        public ReadOnlyCls(int b)
+        {
+            //Initializing Readonly variable
+            z = b;
+
+            // you can change multiple times value of readonly in condtructor
+            //z = 12;
+        }
+        public static void GetReadOnly()
+        {
+
+            //Creating two instances
+            ReadOnlyCls obj1 = new ReadOnlyCls(300);
+            ReadOnlyCls obj2 = new ReadOnlyCls(400);
+        
+            //Accessing Non-Static and Readonly variables using instance
+            Console.WriteLine($"obj1 Readonly z value: {obj1.z}");
+            Console.WriteLine($"obj2 Readonly z value: {obj2.z}");
+            Console.Read();
+        }
     }
 }
