@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CodePractice
 {
-    public static class StaticConstant
+    public static class StaticConstant_var_dynamic
     {
         // Can we change static value ? 
         // Yes
@@ -17,11 +17,17 @@ namespace CodePractice
             Console.WriteLine("Name : {0} ", name);
 
             #region var vs Dynamic
-            var myvalue = 10; // statement 1 
-            //myvalue = "GeeksforGeeks"; // statement 2
-                                       //
-            dynamic val = 10; // statement 1 
-            val = "GeeksforGeeks"; // statement 2 
+            var var_value = 10; // statement 1 
+            //var_value = "GeeksforGeeks"; // statement 2 : NOTE : if you uncomment, gives error
+            // var initial datatype is int,
+            // later on if you try to assign different data type value then gives erro
+            
+            dynamic dynamic_value = 10; // statement 1 
+            dynamic_value = "GeeksforGeeks"; // statement 2 
+            // Note : initial dynamic_value data type is int
+            // but we can assign different data type value like string value
+            // Now dynamic_value have new datatype string.
+            // this is not possible with "var"
             #endregion
 
         }
