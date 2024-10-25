@@ -41,6 +41,9 @@ namespace CodePractice
 
             //Ref_Vs_Out.RefMethod(); 
 
+            // Dictionary with ForEach
+            Dictionary_ForEach.DisplayAge();
+            Dictionary_ForEach.DisplayDesignationWithExperience();
         }
     }
 
