@@ -109,7 +109,7 @@ namespace CodePractice
                 Console.WriteLine(num);
             }
 
-            numbersIEnumerable.Add(6);
+            //numbersIEnumerable.Add(6);
         }
 
         #endregion
