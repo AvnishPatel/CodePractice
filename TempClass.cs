@@ -314,6 +314,7 @@ namespace CodePractice
         #endregion
 
 
+        #region Bracket Pair is Valid
         public static void BracketPair(string bracketValue)
         {
             if (string.IsNullOrWhiteSpace(bracketValue))
@@ -328,26 +329,26 @@ namespace CodePractice
 
         private static bool CheckBracketPair(string _bracket)
         {
-            Stack<char> pairStack = new Stack<char>();
+            Stack<char> stackPair = new Stack<char>();
             foreach (char pair in _bracket)
             {
-                if(IsOpeningPair(pair))
-                    pairStack.Push(pair);
-                else if(pairStack.Count != 0)
+                if (IsOpeningPair(pair))                    // if opening bracket then Add in Stack
+                    stackPair.Push(pair);
+                else if (stackPair.Count != 0)
                 {
-                    if (GetClosingPair(pairStack.Peek()) == pair)
+                    var _stackPeek  = stackPair.Peek();     // Get Top element in stack 
+                    if (GetClosingPair(_stackPeek) == pair) // GetClosingPair of Top stack element and compare
                     {
-                        pairStack.Pop();
+                        stackPair.Pop();                    // Delete Top element from Stack
                     }
                 }
             }
 
-            if (pairStack.Count == 0)
+            if (stackPair.Count == 0)                       // ate the end, stack should be empty
                 return true;
             else
                 return false;
         }
-
         private static bool IsOpeningPair(char pair)
         {
             switch (pair)
@@ -373,7 +374,8 @@ namespace CodePractice
                 default:
                     return default(char);
             }
-        }
+        } 
+        #endregion
 
     }
 }
