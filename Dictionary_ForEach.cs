@@ -27,7 +27,7 @@ namespace CodePractice
             Console.WriteLine();
             Dictionary<string, int> nameAgePair = new Dictionary<string, int>()
             {
-                {"Traine",0 },
+                {"Trainee",0 },
                 {"SE",3 },
                 {"SSE",5 },
                 { "TL",7 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodePractice
 {
-    public static class TempClass
+    public static class ColleaguePrg_2
     {
         #region Get Factorial of Number
         public static void FactorialNumber(int _number)

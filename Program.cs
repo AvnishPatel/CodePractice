@@ -31,8 +31,8 @@ namespace CodePractice
 
             #region Static/ Constant /ReadPnly
 
-            //StaticConstant.ChangeStaticValue();
-            //StaticConstant.CheckConstatValue();
+            //StaticConstant_var_dynamic.ChangeStaticValue();
+            //StaticConstant_var_dynamic.CheckConstatValue();
 
             //ReadOnlyCls.GetReadOnly();
 
@@ -49,86 +49,86 @@ namespace CodePractice
             #endregion
 
             #region Yield and IEnumeration
-            //IEnumerable_IEnumerator.DisplayEvenNumber_WithoutYield();
-            //Yield_ContextKeyword.DisplayEvenNumber_WithYield();
+            //Yield_Keyword.DisplayEvenNumber_WithoutYield();
+            //Yield_Keyword.DisplayEvenNumber_WithYield();
             //Yield_Keyword.DisplayNumber();
             //Yield_Keyword.Yield_Break();
             //Yield_Keyword.IEnumerableCannotModify(); 
             #endregion
 
 
-            //ColleaguePrg.GetFibonacciSerice();
-            //ColleaguePrg.DisplayFibonacciNumberByRecursion();
+            //ColleaguePrg_1.GetFibonacciSerice();
+            //ColleaguePrg_1.DisplayFibonacciNumberByRecursion();
 
 
-            //TempClass.FactorialNumber(5);
+            //ColleaguePrg_2.FactorialNumber(5);
 
             #region Is Palindrom String
-            //TempClass.IsPalindromString("AbA");
-            //TempClass.IsPalindromString("AbcbA");
-            //TempClass.IsPalindromString("AbccbA");
-            //TempClass.IsPalindromString("AbcbA");
-            //TempClass.IsPalindromString("AbcbA1"); 
+            //ColleaguePrg_2.IsPalindromString("AbA");
+            //ColleaguePrg_2.IsPalindromString("AbcbA");
+            //ColleaguePrg_2.IsPalindromString("AbccbA");
+            //ColleaguePrg_2.IsPalindromString("AbcbA");
+            //ColleaguePrg_2.IsPalindromString("AbcbA1"); 
             #endregion
 
             #region GetFibonacci Number : All all 
-            //TempClass.GetFibonacciString(1);
-            //TempClass.GetFibonacciString(2);
-            //TempClass.GetFibonacciString(3);
-            //TempClass.GetFibonacciString(4);
-            //TempClass.GetFibonacciString(5);
-            //TempClass.GetFibonacciString(6);
-            //TempClass.GetFibonacciString(7);
-            //TempClass.GetFibonacciString(8); 
+            //ColleaguePrg_2.GetFibonacciString(1);
+            //ColleaguePrg_2.GetFibonacciString(2);
+            //ColleaguePrg_2.GetFibonacciString(3);
+            //ColleaguePrg_2.GetFibonacciString(4);
+            //ColleaguePrg_2.GetFibonacciString(5);
+            //ColleaguePrg_2.GetFibonacciString(6);
+            //ColleaguePrg_2.GetFibonacciString(7);
+            //ColleaguePrg_2.GetFibonacciString(8);
             #endregion
 
 
             #region Get Unique Char From String
-            //TempClass.Get1stUniqueCharFromString("avanish Patel");
-            //TempClass.GetNonRepeatedCharFromString("avanish Patel");
+            //ColleaguePrg_2.Get1stUniqueCharFromString("avanish Patel");
+            //ColleaguePrg_2.GetNonRepeatedCharFromString("avanish Patel");
             #endregion
 
 
             #region Reversal OfString
-            //TempClass.ReverseOfString("Avnish");
+            //ColleaguePrg_2.ReverseOfString("Avnish");
             //Console.WriteLine();
 
-            //TempClass.ReverseOfString("Avnish Patel");
+            //ColleaguePrg_2.ReverseOfString("Avnish Patel");
             //Console.WriteLine();
 
-            //TempClass.ReverseOfString("AbcbA");
-            //TempClass.ReverseOfWordFromStatement("Avnish Patel Rmp"); 
+            //ColleaguePrg_2.ReverseOfString("AbcbA");
+            //ColleaguePrg_2.ReverseOfWordFromStatement("Avnish Patel Rmp"); 
             #endregion
 
             #region Reverse Number
-            //Console.WriteLine(TempClass.ReverseNumber(123));
-            //Console.WriteLine(TempClass.ReverseNumber(1034));
+            //Console.WriteLine(ColleaguePrg_2.ReverseNumber(123));
+            //Console.WriteLine(ColleaguePrg_2.ReverseNumber(1034));
             #endregion
 
 
             #region find nth Largest number (with/without index)
-            //TempClass.LargestNumberWithIndexFromArray([40,70, 20, 10, 60, 30, 50]);
-            //TempClass.LargestNumberWithIndexFromArray([40, 20,70, 10, 60, 30, 50]);
+            //ColleaguePrg_2.LargestNumberWithIndexFromArray([40,70, 20, 10, 60, 30, 50]);
+            //ColleaguePrg_2.LargestNumberWithIndexFromArray([40, 20,70, 10, 60, 30, 50]);
 
 
-            //TempClass.nthLargestNumberFromArray(6);
-            //TempClass.nthLargestNumberFromArray(8); 
+            //ColleaguePrg_2.nthLargestNumberFromArray(6);
+            //ColleaguePrg_2.nthLargestNumberFromArray(8); 
             #endregion
 
             #region Duplicate char
-            //TempClass.RemoveDuplicateValueFromArray(); 
-            //TempClass.ListDuplicateValueFromArray();
+            //ColleaguePrg_2.RemoveDuplicateValueFromArray(); 
+            //ColleaguePrg_2.ListDuplicateValueFromArray();
 
-            //TempClass.RemoveDuplicateValueButContainAtLeatOnceFromArray();
-            //TempClass.RemoveDuplicateValueButNotUsenewArray(); 
+            //ColleaguePrg_2.RemoveDuplicateValueButContainAtLeatOnceFromArray();
+            //ColleaguePrg_2.RemoveDuplicateValueButNotUsenewArray(); 
             #endregion
 
 
             #region Is BracketPair : {[()]} / {[)(]} / {[[()]}
-            //TempClass.BracketPair("{[()]}");
-            //TempClass.BracketPair("{[)(]}");
-            //TempClass.BracketPair("{[([)]}");
-            //TempClass.BracketPair("{[[()]}"); 
+            //ColleaguePrg_2.BracketPair("{[()]}");
+            //ColleaguePrg_2.BracketPair("{[)(]}");
+            //ColleaguePrg_2.BracketPair("{[([)]}");
+            //ColleaguePrg_2.BracketPair("{[[()]}"); 
             #endregion
 
         }
