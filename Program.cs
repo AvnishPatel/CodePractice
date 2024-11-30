@@ -1,8 +1,4 @@
-﻿using CodePractice.Opps;
-using System;
-using System.Security.Cryptography.X509Certificates;
-
-namespace CodePractice
+﻿namespace CodePractice
 {
     class Program
     {
@@ -57,82 +53,78 @@ namespace CodePractice
             #endregion
 
 
-            //ColleaguePrg_1.GetFibonacciSerice();
-            //ColleaguePrg_1.DisplayFibonacciNumberByRecursion();
-
-
-            //ColleaguePrg_2.FactorialNumber(5);
+            //ColleaguePrg.FactorialNumber(5);
 
             #region Is Palindrom String
-            //ColleaguePrg_2.IsPalindromString("AbA");
-            //ColleaguePrg_2.IsPalindromString("AbcbA");
-            //ColleaguePrg_2.IsPalindromString("AbccbA");
-            //ColleaguePrg_2.IsPalindromString("AbcbA");
-            //ColleaguePrg_2.IsPalindromString("AbcbA1"); 
+            //ColleaguePrg.IsPalindromString("AbA");
+            //ColleaguePrg.IsPalindromString("AbcbA");
+            //ColleaguePrg.IsPalindromString("AbccbA");
+            //ColleaguePrg.IsPalindromString("AbcbA");
+            //ColleaguePrg.IsPalindromString("AbcbA1"); 
             #endregion
 
-            #region GetFibonacci Number : All all 
-            //ColleaguePrg_2.GetFibonacciString(1);
-            //ColleaguePrg_2.GetFibonacciString(2);
-            //ColleaguePrg_2.GetFibonacciString(3);
-            //ColleaguePrg_2.GetFibonacciString(4);
-            //ColleaguePrg_2.GetFibonacciString(5);
-            //ColleaguePrg_2.GetFibonacciString(6);
-            //ColleaguePrg_2.GetFibonacciString(7);
-            //ColleaguePrg_2.GetFibonacciString(8);
+            #region GetFibonacci Number : All  
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(1);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(2);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(3);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(4);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(5);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(6);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(7);
+            //ColleaguePrg.DisplayFibonacciNumberByRecursion(8);
             #endregion
 
 
             #region Get Unique Char From String
-            //ColleaguePrg_2.Get1stUniqueCharFromString("avanish Patel");
-            //ColleaguePrg_2.GetNonRepeatedCharFromString("avanish Patel");
+            //ColleaguePrg.Get1stUniqueCharFromString("avanish Patel");
+            //ColleaguePrg.GetNonRepeatedCharFromString("avanish Patel");
             #endregion
 
 
             #region Reversal OfString
-            //ColleaguePrg_2.ReverseOfString("Avnish");
+            //ColleaguePrg.ReverseOfString("Avnish");
             //Console.WriteLine();
 
-            //ColleaguePrg_2.ReverseOfString("Avnish Patel");
+            //ColleaguePrg.ReverseOfString("Avnish Patel");
             //Console.WriteLine();
 
-            //ColleaguePrg_2.ReverseOfString("AbcbA");
-            //ColleaguePrg_2.ReverseOfWordFromStatement("Avnish Patel Rmp"); 
+            //ColleaguePrg.ReverseOfString("AbcbA");
+            //ColleaguePrg.ReverseOfWordFromStatement("Avnish Patel Rmp"); 
             #endregion
 
+            
             #region Reverse Number
-            //Console.WriteLine(ColleaguePrg_2.ReverseNumber(123));
-            //Console.WriteLine(ColleaguePrg_2.ReverseNumber(1034));
+            //Console.WriteLine(ColleaguePrg.ReverseNumber(123));
+            //Console.WriteLine(ColleaguePrg.ReverseNumber(1034));
             #endregion
 
 
             #region find nth Largest number (with/without index)
-            //ColleaguePrg_2.LargestNumberWithIndexFromArray([40,70, 20, 10, 60, 30, 50]);
-            //ColleaguePrg_2.LargestNumberWithIndexFromArray([40, 20,70, 10, 60, 30, 50]);
+            //ColleaguePrg.LargestNumberWithIndexFromArray([40,70, 20, 10, 60, 30, 50]);
+            //ColleaguePrg.LargestNumberWithIndexFromArray([40, 20,70, 10, 60, 30, 50]);
 
 
-            //ColleaguePrg_2.nthLargestNumberFromArray(6);
-            //ColleaguePrg_2.nthLargestNumberFromArray(8); 
+            //ColleaguePrg.nthLargestNumberFromArray(6);
+            //ColleaguePrg.nthLargestNumberFromArray(8); 
             #endregion
 
-            #region Duplicate char
-            //ColleaguePrg_2.RemoveDuplicateValueFromArray(); 
-            //ColleaguePrg_2.ListDuplicateValueFromArray();
 
-            //ColleaguePrg_2.RemoveDuplicateValueButContainAtLeatOnceFromArray();
-            //ColleaguePrg_2.RemoveDuplicateValueButNotUsenewArray(); 
+            #region Duplicate char
+            //ColleaguePrg.RemoveDuplicateValueFromArray(); 
+            //ColleaguePrg.ListDuplicateValueFromArray();
+
+            //ColleaguePrg.RemoveDuplicateValueButContainAtLeatOnceFromArray();
+            //ColleaguePrg.RemoveDuplicateValueButNotUsenewArray(); 
             #endregion
 
 
             #region Is BracketPair : {[()]} / {[)(]} / {[[()]}
-            //ColleaguePrg_2.BracketPair("{[()]}");
-            //ColleaguePrg_2.BracketPair("{[)(]}");
-            //ColleaguePrg_2.BracketPair("{[([)]}");
-            //ColleaguePrg_2.BracketPair("{[[()]}"); 
+            //ColleaguePrg.BracketPair("{[()]}");
+            //ColleaguePrg.BracketPair("{[)(]}");
+            //ColleaguePrg.BracketPair("{[([)]}");
+            //ColleaguePrg.BracketPair("{[[()]}"); 
             #endregion
 
         }
     }
-
-
 }

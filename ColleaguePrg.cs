@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodePractice
 {
-    public class ColleaguePrg_1
+    public class ColleaguePrg
     {
         public static void GetFibonacciSerice()
         {
