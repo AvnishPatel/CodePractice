@@ -1,4 +1,6 @@
-﻿namespace CodePractice
+﻿using System;
+
+namespace CodePractice
 {
     class Program
     {
@@ -17,9 +19,6 @@
             //StringUtil.SwitchCase(); 
             #endregion
 
-            //ListUtil.CheckElementInList();
-
-
             #region Executionm order of Static and non-static constructor
             //ChildClass childClass = new ChildClass(); 
             #endregion
@@ -34,9 +33,13 @@
 
             #endregion
 
+            #region this / ref vs out / List
             //ThisKeyword thisKeyword = new ThisKeyword();
 
-            //Ref_Vs_Out.RefMethod(); 
+            //Ref_Vs_Out.RefMethod();  
+
+            //ListUtil.CheckElementInList();
+            #endregion
 
 
             #region Dictionary with ForEach
@@ -53,8 +56,6 @@
             #endregion
 
 
-            //ColleaguePrg.FactorialNumber(5);
-
             #region Is Palindrom String
             //ColleaguePrg.IsPalindromString("AbA");
             //ColleaguePrg.IsPalindromString("AbcbA");
@@ -64,6 +65,9 @@
             #endregion
 
             #region GetFibonacci Number : All  
+
+            //ColleaguePrg.FactorialNumber(5);
+
             //ColleaguePrg.DisplayFibonacciNumberByRecursion(1);
             //ColleaguePrg.DisplayFibonacciNumberByRecursion(2);
             //ColleaguePrg.DisplayFibonacciNumberByRecursion(3);
@@ -92,7 +96,7 @@
             //ColleaguePrg.ReverseOfWordFromStatement("Avnish Patel Rmp"); 
             #endregion
 
-            
+
             #region Reverse Number
             //Console.WriteLine(ColleaguePrg.ReverseNumber(123));
             //Console.WriteLine(ColleaguePrg.ReverseNumber(1034));
@@ -125,6 +129,9 @@
             //ColleaguePrg.BracketPair("{[[()]}"); 
             #endregion
 
+
+            Course_DeleteDemo.SampleMethod();
         }
+
     }
 }
