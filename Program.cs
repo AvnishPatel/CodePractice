@@ -130,7 +130,12 @@ namespace CodePractice
             #endregion
 
 
-            Course_DeleteDemo.SampleMethod();
+            //Course_DeleteDemo.SampleMethod();
+
+            #region base keyword unerstanding
+            GrandChildClass grandChild = new GrandChildClass();
+            grandChild.Greet();
+            #endregion
         }
 
     }
