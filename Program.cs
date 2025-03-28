@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CodePractice
 {
@@ -133,8 +134,31 @@ namespace CodePractice
             //Course_DeleteDemo.SampleMethod();
 
             #region base keyword unerstanding
-            GrandChildClass grandChild = new GrandChildClass();
-            grandChild.Greet();
+            //GrandChildClass grandChild = new GrandChildClass();
+            //grandChild.Greet();
+            #endregion
+
+            #region LINQ
+            //int[] arr = { 1, 2, 3 };
+
+            //var result = arr.Select(x => x * 2).FirstOrDefault();
+            //Console.WriteLine(result);  // 2
+
+            //var result22 = arr.Select(x => x * 2);
+            //Console.WriteLine(string.Join(",", result22)); // 2,4,6 
+            #endregion
+
+            #region boxing unboxing
+            //int x = 10;
+            //object obj = x;
+            //object obj2 = obj;
+            //x = 20;
+            //Console.WriteLine("obj  " + obj);
+            //Console.WriteLine("obj2 " + obj2); Console.WriteLine();
+
+            //obj = 5;
+            //Console.WriteLine("obj  " + obj);
+            //Console.WriteLine("obj2 " + obj2); 
             #endregion
         }
 
