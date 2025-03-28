@@ -160,6 +160,9 @@ namespace CodePractice
             //Console.WriteLine("obj  " + obj);
             //Console.WriteLine("obj2 " + obj2); 
             #endregion
+
+            // BracesMatch
+            BracesMatch.CheckBraces();
         }
 
     }
