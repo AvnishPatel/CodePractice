@@ -168,51 +168,50 @@ namespace CodePractice
             #endregion
 
 
-            #region Inheritance
+            #region Inheritance + overriding
             
-            Console.WriteLine("\r\nParentCls parentObj = new ParentCls();");
+            //Console.WriteLine("\r\nParentCls parentObj = new ParentCls();");
 
-            ParentCls parentObj = new ParentCls();
-            Console.Write("parentObj.Test1() - ");
-            parentObj.Test1();  // op : From Parent class: Test 1()
+            //ParentCls parentObj = new ParentCls();
+            //Console.Write("parentObj.Test1() - ");
+            //parentObj.Test1();  // op : From Parent class: Test 1()
 
-            Console.Write("parentObj.Test2() - ");
-            parentObj.Test2();  // op : From Parent class: Test 2()
+            //Console.Write("parentObj.Test2() - ");
+            //parentObj.Test2();  // op : From Parent class: Test 2()
 
 
 
-            ChildCls childObj = new ChildCls();
-            Console.WriteLine("\r\nChildCls childObj = new ChildCls();");
+            //ChildCls childObj = new ChildCls();
+            //Console.WriteLine("\r\nChildCls childObj = new ChildCls();");
             
-            Console.Write("childObj.Test1() - ");
-            childObj.Test1();   // op : From Child class: Test 1 - Bcz Test1() method in clild class re-defined using "new" 
+            //Console.Write("childObj.Test1() - ");
+            //childObj.Test1();   // op : From Child class: Test 1 - Bcz Test1() method in clild class re-defined using "new" 
 
-            Console.Write("childObj.Test2() - ");
-            childObj.Test2();   // op : From Child class: Test 2 - Bcz Test2() method in clild class "override"
+            //Console.Write("childObj.Test2() - ");
+            //childObj.Test2();   // op : From Child class: Test 2 - Bcz Test2() method in clild class "override"
 
-            //childObj.FromChildCallParentMathod();
+            ////childObj.FromChildCallParentMathod();
 
 
 
-            Console.WriteLine("\r\nParentCls parentClsObj_InitialisedByChildClass = new ChildCls();");
-            ParentCls parentClsObj_InitialisedByChildClass = new ChildCls();
+            //Console.WriteLine("\r\nParentCls parentClsObj_InitialisedByChildClass = new ChildCls();");
+            //ParentCls parentClsObj_InitialisedByChildClass = new ChildCls();
 
-            Console.Write("parentClsObj_InitialisedByChildClass.Test1() - ");
-            parentClsObj_InitialisedByChildClass.Test1(); // op : From Parent class: Test 1
-                                                          // When Parent class object initialised by Child class object and
-                                                          // in child class, Test1() method again defined using NEW keyword,
-                                                          // then aslo object of Parent Class will call method's of Parent class
+            //Console.Write("parentClsObj_InitialisedByChildClass.Test1() - ");
+            //parentClsObj_InitialisedByChildClass.Test1(); // op : From Parent class: Test 1
+            //                                              // When Parent class object initialised by Child class object and
+            //                                              // in child class, Test1() method again defined using NEW keyword,
+            //                                              // then aslo object of Parent Class will call method's of Parent class
 
-            // NOTE 
-            Console.Write("parentClsObj_InitialisedByChildClass.Test2() - ");
-            parentClsObj_InitialisedByChildClass.Test2(); // op : From Child class: Test 2
-                                                          // When Parent class object initialised by Child class object and
-                                                          // in child class, Test2() method OVERRIDE,
-                                                          // then object of Parent Class call will call override method of child class
+            //// NOTE 
+            //Console.Write("parentClsObj_InitialisedByChildClass.Test2() - ");
+            //parentClsObj_InitialisedByChildClass.Test2(); // op : From Child class: Test 2
+            //                                              // When Parent class object initialised by Child class object and
+            //                                              // in child class, Test2() method OVERRIDE,
+            //                                              // then object of Parent Class call will call override method of child class
 
-            // NOTE : Error - Not possible
-            //parentClsObj_InitialisedByChildClass.Test3();
-
+            //// NOTE : Error - Not possible
+            ////parentClsObj_InitialisedByChildClass.Test3();
 
             #endregion
 
