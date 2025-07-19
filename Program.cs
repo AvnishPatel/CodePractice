@@ -169,7 +169,7 @@ namespace CodePractice
 
 
             #region Inheritance + overriding
-            
+
             //Console.WriteLine("\r\nParentCls parentObj = new ParentCls();");
 
             //ParentCls parentObj = new ParentCls();
@@ -183,7 +183,7 @@ namespace CodePractice
 
             //ChildCls childObj = new ChildCls();
             //Console.WriteLine("\r\nChildCls childObj = new ChildCls();");
-            
+
             //Console.Write("childObj.Test1() - ");
             //childObj.Test1();   // op : From Child class: Test 1 - Bcz Test1() method in clild class re-defined using "new" 
 
@@ -214,6 +214,9 @@ namespace CodePractice
             ////parentClsObj_InitialisedByChildClass.Test3();
 
             #endregion
+
+            //ArrayClass.GetIndexOfLastOccurranceNumber();
+            ArrayClass.MaximumSubarray();
 
             Console.ReadKey();
         }

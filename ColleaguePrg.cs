@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodePractice
 {
+    // https://ankitsharmablogs.com/csharp-coding-questions-for-technical-interviews/
     public class ColleaguePrg
     {
         public static void GetFibonacciSerice()
