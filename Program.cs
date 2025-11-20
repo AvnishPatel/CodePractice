@@ -1,5 +1,6 @@
 ﻿using CodePractice.Opps;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -216,7 +217,65 @@ namespace CodePractice
             #endregion
 
             //ArrayClass.GetIndexOfLastOccurranceNumber();
-            ArrayClass.MaximumSubarray();
+            //ArrayClass.MaximumSubarray();
+
+
+            #region Generic <T>
+
+            #region GENERIC : create a list containing integer values
+            //Generic<int> list1 = new Generic<int>();
+            //var integerlist = list1.ReturnListOfAnyDatatype(1, 2, 3);
+            //Console.WriteLine("Elements of Integer List are:");
+            //foreach (var i in integerlist)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
+            #region GENERIC : create a list containing string values
+            //Generic<string> list2 = new Generic<string>();
+            //var stringList = list2.ReturnListOfAnyDatatype("California", "NewYork", "Mumbai");
+            //Console.WriteLine("Elements of string List are:");
+            //foreach (var i in stringList)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
+            #region GENERIC : create a list containing objects
+            //Generic<object> listThree = new Generic<object>();
+            //var objectList = listThree.ReturnListOfAnyDatatype(1, 23.5, "Hello");
+            //Console.WriteLine("Elements of string List are:");
+            //foreach (var i in objectList)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            /* You can observe that the list is created even though
+             * the elements are of different types. This is because
+             * we have created a list of object type Generic<object> which will 
+             * accept elements of any data type */
+            #endregion
+            #endregion
+
+            #region List 
+            //IList<int> bookQuantity = new List<int>();
+            //bookQuantity.Add(20);
+            //bookQuantity.Add(10);
+            //bookQuantity.Add(15);
+
+            //// Guess o/p of bellow line of code
+            //Console.WriteLine(bookQuantity.Remove(30)); // False , because 30 is not present in list
+            //Console.WriteLine(bookQuantity.Remove(20)); // True , because 20 is present in list and will be removed 
+            #endregion
+
+            #region Inheritance Demo
+            //A a = new C();
+            //a.Show();
+
+
+            //C c = new C();
+            //c.Show(); 
+            #endregion
 
             Console.ReadKey();
         }
