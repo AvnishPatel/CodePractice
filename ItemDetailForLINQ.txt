@@ -1,0 +1,6 @@
+﻿Fan:1500
+Refrigerator:20000
+Air Cooler:5000
+Cot:2500
+Wardrobe: 3000
+Show Lamp: 500

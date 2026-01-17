@@ -277,6 +277,12 @@ namespace CodePractice
             //c.Show(); 
             #endregion
 
+            #region LINQ Demo
+            //LINQ_Demo.ReadDataFromTxtFile();
+            //LINQ_Demo.SimpleQuery();
+            //LINQ_Demo.SelectManyDemo(); 
+            #endregion
+
             Console.ReadKey();
         }
 
