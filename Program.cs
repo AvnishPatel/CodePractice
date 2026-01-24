@@ -274,7 +274,15 @@ namespace CodePractice
 
 
             //C c = new C();
-            //c.Show(); 
+            //c.Show();
+
+
+            #region inheritance + protected access
+            Musician musician = new Musician();
+            musician.DisplayAge();
+            //Console.WriteLine(musician.age); // error: 'Artist.age' is inaccessible due to its protection level 
+            #endregion
+
             #endregion
 
             #region LINQ Demo

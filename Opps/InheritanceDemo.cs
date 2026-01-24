@@ -28,6 +28,27 @@ namespace CodePractice.Opps
         {
             Console.WriteLine("From Class C");
         }
-
     }
+
+    #region inheritance + protected
+
+    // public static void main(){
+    //     Musician musician = new Musician();
+    //     musician.DisplayAge();  // Output: Musician Age: 10
+    // }
+    public class Artist
+    {
+        protected int age = 10;
+         
+    }
+
+    class Musician : Artist
+    {
+        public void DisplayAge()
+        {
+            Console.WriteLine("Musician Age: " + age);
+        }
+    }
+    #endregion
+
 }
