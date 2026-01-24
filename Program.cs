@@ -269,17 +269,19 @@ namespace CodePractice
             #endregion
 
             #region Inheritance Demo
-            //A a = new C();
+
+            //BaseClassA a = new B();
+            //a.NonVirtualMethod();
+            //a.Virtual_NonOverriddenMthod();
             //a.Show();
 
-
-            //C c = new C();
-            //c.Show();
+            //BaseClassA a1 = new C();
+            //a1.Show();
 
 
             #region inheritance + protected access
-            Musician musician = new Musician();
-            musician.DisplayAge();
+            //Musician musician = new Musician();
+            //musician.DisplayAge();
             //Console.WriteLine(musician.age); // error: 'Artist.age' is inaccessible due to its protection level 
             #endregion
 
