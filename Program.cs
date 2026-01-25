@@ -223,8 +223,19 @@ namespace CodePractice
 
 
             // Hierarchical inheritance
-            //Person person = new Trainee();
-            //person.Hello();
+            //Human human = new Woman();
+            //human.Hello();
+
+
+            // Another example of Inheritance + overriding
+            //Employee cust = new PriviledgeEmployee();
+            //Console.WriteLine("Points 1: " + cust.CalculateRewards(7));
+
+            //Employee custobj = new VIPEmployee();
+            //Console.WriteLine("Points 2: " + cust.CalculateRewards(7));
+
+            //Employee customer = new Employee();
+            //Console.WriteLine("Points 3: " + customer.CalculateRewards(7));
 
             #endregion
 
@@ -292,9 +303,9 @@ namespace CodePractice
 
 
             #region inheritance + protected access
-            //Musician musician = new Musician();
-            //musician.DisplayAge();
-            //Console.WriteLine(musician.age); // error: 'Artist.age' is inaccessible due to its protection level 
+            //Painter Painter = new Painter();
+            //Painter.DisplayAge();
+            //Console.WriteLine(Painter.age); // error: 'Artist.age' is inaccessible due to its protection level 
             #endregion
 
             #endregion

@@ -48,8 +48,8 @@ namespace CodePractice.Opps
     #region inheritance + protected
 
     // public static void main(){
-    //     Musician musician = new Musician();
-    //     musician.DisplayAge();  // Output: Musician Age: 10
+    //     Painter Painter = new Painter();
+    //     Painter.DisplayAge();  // Output: Painter Age: 10
     // }
     public class Artist
     {
@@ -57,11 +57,11 @@ namespace CodePractice.Opps
          
     }
 
-    class Musician : Artist
+    class Painter : Artist
     {
         public void DisplayAge()
         {
-            Console.WriteLine("Musician Age: " + age);
+            Console.WriteLine("Painter Age: " + age);
         }
     }
     #endregion

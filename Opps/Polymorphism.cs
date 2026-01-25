@@ -42,18 +42,43 @@ namespace CodePractice.Opps
     }
 
     #region Hierarchical inheritance
-    class Person
+    class Human
     {
-        public virtual void Hello() { Console.WriteLine("Hello Person!"); }
+        public virtual void Hello() { Console.WriteLine("Hello Human!"); }
     }
-    class Employee : Person
+    class Man : Human
     {
-        public override void Hello() { Console.WriteLine("Hello Employee!"); }
+        public override void Hello() { Console.WriteLine("Hello Man!"); }
     }
-    class Trainee : Employee
+    class Woman : Man
     {
-        public new void Hello() { Console.WriteLine("Hello Trainee!"); }
-    } 
+        public new void Hello() { Console.WriteLine("Hello Woman!"); }
+    }
+    #endregion
+
+    #region Hierarchical inheritance
+    class Employee
+    {
+        public virtual int CalculateRewards(int numberOfItemPurchased) 
+        {
+            return numberOfItemPurchased * 10; 
+        }
+    }
+    class PriviledgeEmployee : Employee
+    {
+        public static int CalculateRewards(int numberOfItemPurchased) 
+        { 
+            return numberOfItemPurchased * 20; 
+        }
+    }
+
+    class VIPEmployee : Employee
+    {
+        public new int CalculateRewards(int numberOfItemPurchased)
+        {
+            return numberOfItemPurchased * 20;
+        }
+    }
     #endregion
 
 }
