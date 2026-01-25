@@ -39,8 +39,21 @@ namespace CodePractice.Opps
             base.Test1();
             base.Test2();
         }
-
     }
 
+    #region Hierarchical inheritance
+    class Person
+    {
+        public virtual void Hello() { Console.WriteLine("Hello Person!"); }
+    }
+    class Employee : Person
+    {
+        public override void Hello() { Console.WriteLine("Hello Employee!"); }
+    }
+    class Trainee : Employee
+    {
+        public new void Hello() { Console.WriteLine("Hello Trainee!"); }
+    } 
+    #endregion
 
 }

@@ -221,6 +221,11 @@ namespace CodePractice
             //                                              // in child class, Test5() method call Parent class method,
             //                                              // then object of Parent Class call will call method of Parent class
 
+
+            // Hierarchical inheritance
+            //Person person = new Trainee();
+            //person.Hello();
+
             #endregion
 
             //ArrayClass.GetIndexOfLastOccurranceNumber();
