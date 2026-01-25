@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CodePractice.Opps
 {
     /// The reference variable, though points to derived class object, can identify only:
+    
     /// · public properties and public non-virtual methods from base class
 
     /// · public virtual method(s) from base class, if overridden methods from its
@@ -32,6 +33,11 @@ namespace CodePractice.Opps
         public override void Show()
         { 
             Console.WriteLine("public overriden() in derived class B"); }
+
+        public void Display()
+        {
+            Console.WriteLine("pure child class Display() in class B");
+        }
     }
     public class C : B
     {

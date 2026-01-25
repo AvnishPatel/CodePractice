@@ -12,32 +12,32 @@ namespace CodePractice.Opps
         {
             Console.WriteLine("From Parent class: Test 2()");
         }
+        public virtual void Test5()
+        {
+            Console.WriteLine("From Parent class: Test 5(), " +
+                "virtual but not overriden in child class");
+        }
     }
 
 
     public class ChildCls : ParentCls
     {
-
-        #region From Childclass, Call ParentMathod
-        public void FromChildCallParentMathod()
-        {
-            base.Test1();
-            base.Test2();
-        }
-        #endregion
         public new void Test1()
         {
             Console.WriteLine("From Child class: Test 1");
         }
-
         public override void Test2()
         {
             Console.WriteLine("From Child class: Test 2");
         }
-
         public void Test3()
         {
             Console.WriteLine("From Child class: Test 3");
+        }
+        public void FromChild_CallParentMathod()
+        {
+            base.Test1();
+            base.Test2();
         }
 
     }

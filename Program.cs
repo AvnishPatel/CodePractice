@@ -191,8 +191,9 @@ namespace CodePractice
             //Console.Write("childObj.Test2() - ");
             //childObj.Test2();   // op : From Child class: Test 2 - Bcz Test2() method in clild class "override"
 
-            ////childObj.FromChildCallParentMathod();
+            //childObj.FromChild_CallParentMathod();
 
+            //childObj.Test5();// op : From Parent class: Test 5 - Bcz Test5() method in clild class call Parent class method
 
 
             //Console.WriteLine("\r\nParentCls parentClsObj_InitialisedByChildClass = new ChildCls();");
@@ -201,7 +202,7 @@ namespace CodePractice
             //Console.Write("parentClsObj_InitialisedByChildClass.Test1() - ");
             //parentClsObj_InitialisedByChildClass.Test1(); // op : From Parent class: Test 1
             //                                              // When Parent class object initialised by Child class object and
-            //                                              // in child class, Test1() method again defined using NEW keyword,
+            //                                              // in child class, Test1() method  re-defined using NEW keyword,
             //                                              // then aslo object of Parent Class will call method's of Parent class
 
             //// NOTE 
@@ -212,7 +213,13 @@ namespace CodePractice
             //                                              // then object of Parent Class call will call override method of child class
 
             //// NOTE : Error - Not possible
-            ////parentClsObj_InitialisedByChildClass.Test3();
+            //parentClsObj_InitialisedByChildClass.Test3();   // pure method of Child class not present in Parent class
+
+
+            //parentClsObj_InitialisedByChildClass.Test5(); // op : From Parent class: Test 5
+            //                                              // When Parent class object initialised by Child class object and
+            //                                              // in child class, Test5() method call Parent class method,
+            //                                              // then object of Parent Class call will call method of Parent class
 
             #endregion
 
