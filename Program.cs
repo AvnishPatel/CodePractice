@@ -10,6 +10,66 @@ namespace CodePractice
     {
         static void Main(string[] args)
         {
+
+
+            #region 204: Reverse neighbour char
+            //string inp = "abcde";
+            //string inpTemp = "";
+            //string lastodd = "";
+
+            //if (inp.Length % 2 == 0)
+            //    inpTemp = inp;
+            //else
+            //{
+            //    inpTemp = inp.Substring(0, inp.Length - 1);
+
+            //    Console.WriteLine("inpTemp : " + inpTemp);
+
+            //    lastodd = inp.Substring(inp.Length - 1, 1);
+            //    Console.WriteLine("inpTemp : " + lastodd);
+            //}
+            //string op = "";
+
+            //for (int i = 0; i < inpTemp.Length - 1; i += 2)
+            //{
+            //    op += inpTemp[i + 1];
+            //    op += inpTemp[i];
+            //}
+
+            //op += lastodd;
+            //Console.WriteLine(op); 
+            #endregion
+
+            #region 201 : Abstraction demo
+            //Car car = new Car();
+            //car.Start();
+            //car.Stop();
+
+            //Vehicle vehicle = new Car();
+            //vehicle.Start();
+            //vehicle.Stop(); 
+            #endregion
+
+            #region 200 : Object reference
+            //Car Car1 = new Car();
+            //Car1.Name = "BMW";
+
+            //Console.WriteLine("Car1.Name : " + Car1.Name);
+            //Car c2 = Car1;
+            //c2.Name = "Audi";
+
+            //Console.WriteLine("Car1.Name : " + Car1.Name);
+            //Console.WriteLine("c2.Name :" + c2.Name);
+
+            //Car c3 = c2;
+            //Car1.Name = "Mercedes";
+            //Console.WriteLine("--");
+            //Console.WriteLine("Car1.Name : " + Car1.Name);
+            //Console.WriteLine("c2.Name :" + c2.Name);
+            //Console.WriteLine("c3.Name :" + c3.Name); 
+            #endregion
+
+
             #region String Utility function
             //StringUtil.DisplayStart();
             //StringUtil.Get(1);
@@ -314,6 +374,28 @@ namespace CodePractice
             //LINQ_Demo.ReadDataFromTxtFile();
             //LINQ_Demo.SimpleQuery();
             //LINQ_Demo.SelectManyDemo(); 
+            #endregion
+
+            #region 100 : static constructor and static property
+            //ClassRoom.NoOfComputer = ClassRoom.NoOfComputer + 1000;
+            //Console.WriteLine(ClassRoom.NoOfComputer);
+            //ClassRoom classRoom = new ClassRoom(); 
+            #endregion
+
+            #region 101
+            //SoftwareEngineer c = new SoftwareEngineer(1000);
+            //IEmployee e = c;
+            //e.SalaryIncrement(50);
+            //Console.WriteLine(c.GetSalary()); 
+            #endregion
+
+            #region 102 : getter setter access modifier
+            //Employee employee = new Employee(1000);
+            //employee.Salary = employee.Salary + 1; 
+            #endregion
+
+            #region  103 : getter setter and Abs
+            //StudentAbs studentAbs = new StudentAbs(-10); 
             #endregion
 
             Console.ReadKey();
